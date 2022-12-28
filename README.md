@@ -1,4 +1,4 @@
-# Fan Control for raspberry Pi
+# Fan Control for Raspberry Pi
 
 Simple script to control Raspberry Pi Fan
 
