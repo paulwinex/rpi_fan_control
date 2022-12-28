@@ -2,16 +2,16 @@
 
 Simple script to control Raspberry Pi Fan
 
-### Scheme
+![Scheme](images/photo.jpg)
 
-![Scheme](images/scheme.jpg)
-
-Hardware:
+### Hardware
 
 1. Any Raspberry Pi
 2. 5v Fan
 3. Transistor 2N2222 https://datasheetspdf.com/pdf-file/1129135/SEMTECH/2N2222/1
 4. Resistor 47Ω (Optional, to decrease the fan speed)
+
+![Scheme](images/scheme.jpg)
 
 ## Installation
 
@@ -62,9 +62,9 @@ You don't need to restart service. The new values will be read automatically.
 
 ### Environment variables
 
-`FAN_CONTROL_LOG_DIR` - Path to fogs dir. Default: `/var/log`
+`FAN_CONTROL_LOG_DIR` : Path to fogs dir. Default: `/var/log`
 
-`FAN_CONTROL_CONFIG_FILE` = Path to config file. Default: `/opt/fan_control.json`
+`FAN_CONTROL_CONFIG_FILE` : Path to config file. Default: `/opt/fan_control.json`
 
 ### Test
 
